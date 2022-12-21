@@ -3,14 +3,14 @@ sedOlaFlow case setup for dam-break driven swash on a permeable slope (details o
 Modeling paper is under review in JGR: Oceans.
 
 ### How to Simulate ###
-1. foamClearPolyMesh
-2. blockMesh
+1. foamClearPolyMesh  
+2. blockMesh  
 3. snappyHexMesh -overwrite (If you want to skip the mesh refinement near the sediment pit, you can ignore this part)
 4. extrudeMesh (This is to remove the redundant spanwise grids as an outcome of snappyHex)
-5. go to 0 folder and make non-org files
-cp -r alpha.water.org alpha.water
-cp -r alpha.org alpha
-cp -r gamma.org gamma
+5. go to 0 folder and make non-org files  
+ cp -r alpha.water.org alpha.water
+ cp -r alpha.org alpha
+ cp -r gamma.org gamma
 6. setWaveField (to fill the water, in default waves2Foam searches alpha.water and U)
 7. copy U to Ub & alpha.water to alpha1 (SedWaveFoam uses alpha1)
 cp -r U Ub
