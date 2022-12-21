@@ -3,7 +3,7 @@ sedOlaFlow case setup for dam-break driven swash on a permeable slope (details o
 Modeling paper is under review in JGR: Oceans.
 
 ### How to Simulate ###
-* (1) foamClearPolyMesh
+1. foamClearPolyMesh
 * (2) blockMesh
 * (3) snappyHexMesh -overwrite (If you want to skip the mesh refinement near the sediment pit, you can ignore this part)
 * (4) extrudeMesh (This is to remove the redundant spanwise grids as an outcome of snappyHex)
