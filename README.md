@@ -12,8 +12,8 @@ Modeling paper is under review in JGR: Oceans.
  cp -r alpha.org alpha  
  cp -r gamma.org gamma
 6. setWaveField (to fill the water, in default waves2Foam searches alpha.water and U)
-7. copy U to Ub & alpha.water to alpha1 (SedWaveFoam uses alpha1)
-cp -r U Ub
-cp -r alpha.water alpha1
+7. copy U to Ub & alpha.water to alpha1 (SedWaveFoam uses alpha1)  
+ cp -r U Ub  
+ cp -r alpha.water alpha1
 8. funkySetFields -time 0 (to fill up the sediment and remove that portion in alpha1)
 9. SedWaveRANSDEVFoam (you can make the parallel if you want)
