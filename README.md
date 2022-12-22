@@ -7,7 +7,7 @@ Within case folder:
 1. foamCleanPolyMesh  
 2. blockMesh  
 3. snappyHexMesh -overwrite  
-4. Within 0 folder, make non-org files  
+4. Go to 0 folder, make non-org files  
  cp -r alpha.water.org alpha.water    
 5. setFields  
 6. SedGWOlaFlow_v1 (can be run in parallel)
