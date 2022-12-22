@@ -3,7 +3,6 @@ sedOlaFlow case setup for dam-break driven swash on a permeable slope (details o
 Modeling paper is under review in JGR: Oceans.
 
 ### How to Simulate ###
-Within case folder:
 1. foamCleanPolyMesh  
 2. blockMesh  
 3. snappyHexMesh -overwrite  
