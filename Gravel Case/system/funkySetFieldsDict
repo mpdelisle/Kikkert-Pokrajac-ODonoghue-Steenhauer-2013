@@ -1,0 +1,33 @@
+FoamFile
+{
+    version         2.0;
+    format          ascii;
+
+    root            "";
+    case            "";
+    instance        "system";
+    local           "";
+
+    class           dictionary;
+    object          funkySetFieldsDict;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+expressions
+(
+  /*sed
+  {
+    field sed;
+    keepPatches true;
+    //expression "0.5*0.61*(1+tanh(240*(-3.5-pos().z))";//barsed -1.001*240 =
+    //expression "max(0.5*0.61*(1+tanh(2400*( -(100*pos().x + 10*pos().z)/101*sin(0.099668652)+(10*pos().x + pos().z)/101*cos(0.099668652) + pos().x*sin(0.099668652)-pos().z*cos(0.099668652) ) )),0)";
+    //condition  "(pos().x>=0)";
+  }
+  beta
+  {
+    field beta;
+    keepPatches true;
+    //expression "0.5*0.61*(1+tanh(240*(-3.5-pos().z))";//barsed -1.001*240 =
+    //expression "1.0-sed";
+  }*/
+);

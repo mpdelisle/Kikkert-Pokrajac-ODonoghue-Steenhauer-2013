@@ -1,0 +1,58 @@
+solid slope
+ facet normal  0.000000e+00 -1.000000e+00  0.000000e+00
+   outer loop
+     vertex -6.230900e-01  0.000000e+00  2.064600e-04
+     vertex  5.784700e+00  0.000000e+00 -6.427200e-01
+     vertex  5.849000e+00  0.000000e+00 -1.938100e-03
+   endloop
+ endfacet
+ facet normal  0.000000e+00 -1.000000e+00  0.000000e+00
+   outer loop
+     vertex -6.230900e-01  1.000000e+00  2.064600e-04
+     vertex  5.784700e+00  1.000000e+00 -6.427200e-01
+     vertex  5.849000e+00  1.000000e+00 -1.938100e-03
+   endloop
+ endfacet
+ facet normal  3.313551e-04 -0.000000e+00  9.999999e-01
+   outer loop
+     vertex -6.230900e-01  0.000000e+00  2.064600e-04
+     vertex  5.849000e+00  0.000000e+00 -1.938100e-03
+     vertex -6.230900e-01  1.000000e+00  2.064600e-04
+   endloop
+ endfacet
+ facet normal  9.950030e-01  0.000000e+00 -9.984473e-02
+   outer loop
+     vertex  5.849000e+00  0.000000e+00 -1.938100e-03
+     vertex  5.784700e+00  0.000000e+00 -6.427200e-01
+     vertex  5.849000e+00  1.000000e+00 -1.938100e-03
+   endloop
+ endfacet
+ facet normal -9.983387e-02  0.000000e+00 -9.950041e-01
+   outer loop
+     vertex  5.784700e+00  0.000000e+00 -6.427200e-01
+     vertex -6.230900e-01  0.000000e+00  2.064600e-04
+     vertex  5.784700e+00  1.000000e+00 -6.427200e-01
+   endloop
+ endfacet
+ facet normal -3.313551e-04  0.000000e+00 -9.999999e-01
+   outer loop
+     vertex -6.230900e-01  1.000000e+00  2.064600e-04
+     vertex  5.849000e+00  1.000000e+00 -1.938100e-03
+     vertex  5.849000e+00  0.000000e+00 -1.938100e-03
+   endloop
+ endfacet
+ facet normal -9.950030e-01  0.000000e+00  9.984473e-02
+   outer loop
+     vertex  5.849000e+00  1.000000e+00 -1.938100e-03
+     vertex  5.784700e+00  1.000000e+00 -6.427200e-01
+     vertex  5.784700e+00  0.000000e+00 -6.427200e-01
+   endloop
+ endfacet
+ facet normal  9.983387e-02  0.000000e+00  9.950041e-01
+   outer loop
+     vertex  5.784700e+00  1.000000e+00 -6.427200e-01
+     vertex -6.230900e-01  1.000000e+00  2.064600e-04
+     vertex -6.230900e-01  0.000000e+00  2.064600e-04
+   endloop
+ endfacet
+endsolid slope
