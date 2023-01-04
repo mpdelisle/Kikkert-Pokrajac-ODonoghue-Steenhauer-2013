@@ -10,4 +10,4 @@ Modeling paper is under review in JGR: Oceans.
 4. Go to 0 folder, make non-org files  
  cp -r alpha.water.org alpha.water    
 5. setFields  
-6. SedGWOlaFlow_v1 (can be run in parallel)
+6. SedOlaFlow (can be run in parallel)
